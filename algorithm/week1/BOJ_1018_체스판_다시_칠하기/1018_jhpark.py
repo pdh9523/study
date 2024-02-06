@@ -19,8 +19,8 @@ board = [list(input()) for _ in range(n)]
 # pprint.pprint(board)
 
 # 원래 체스판 구현
-chess_1 = ['B', 'W'] * 5
-chess_2 = ['W', 'B'] * 5
+chess_1 = ['B', 'W'] * 4
+chess_2 = ['W', 'B'] * 4
 
 # 체스판 ver1
 chess_board_1 = [chess_1, chess_2] * 4
