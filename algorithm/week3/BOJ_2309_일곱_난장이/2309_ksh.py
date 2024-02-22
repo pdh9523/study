@@ -8,6 +8,6 @@ for fir in range(9):   # 첫번째 난쟁이 제외
             dwarf.pop(fir)
             dwarf.pop(dwarf.index(sec))
             dwarf.sort()
-            for i in range(7):   # 출
+            for i in range(7):   # 출력
                 print(dwarf[i])
-            break력
+            break
