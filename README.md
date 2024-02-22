@@ -26,7 +26,7 @@
 
 - `push` 전에 꼭 자신이 `pull` 했는지 확인합니다.
 
-## 3주차 과제
+## 4주차 과제
 
 
 [줄 세우기 (브론즈2)](https://www.acmicpc.net/problem/2605)
