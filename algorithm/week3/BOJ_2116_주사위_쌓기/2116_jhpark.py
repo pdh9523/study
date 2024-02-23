@@ -26,7 +26,7 @@ for i in dice:
     dice_paired.append([i[2], i[4]])
     dice_paired_total.append(dice_paired)
 
-# pprint.pprint(dice_paired_total)
+pprint.pprint(dice_paired_total)
 
 
 # 맨 아래 주사위면을 고른 후 그와 마주봐서 위아래에 놓일 면들 다른 주사위에서 쭉 삭제
