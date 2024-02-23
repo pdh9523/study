@@ -21,17 +21,12 @@ def dicer(n, m):
         m = dice2[n].index(up)   # 현재 주사위가 다음 주사위의 아랫면이 됨
         return dicer(n, m)       # 재귀 함수
 
-
-
 N = int(input())   # 주사위의 개수
 dice = [list(map(int, input().split())) for _ in range(N)]
 
 dice2 = [[] for _ in range(N)]
 for i in range(N):   # index -3 자리에 반대편 자리가 되도록 정리
-    dice2[i] = dice[i][:3]
-    dice2[i].append(dice[i][5])
-    dice2[i].append(dice[i][3])
-    dice2[i].append(dice[i][4])
+    dice2[i] = dice[i][:3] + [dice[i][5], dice[i][3], dice[i][4]]
 
 dice3 = deepcopy(dice2)
 
