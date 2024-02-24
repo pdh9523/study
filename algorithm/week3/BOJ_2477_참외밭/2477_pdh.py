@@ -19,6 +19,6 @@ for i in range(6):
 left = [] # 남은 땅
 for i in range(6):
     if s[i][0] == s[(i+2)%6][0]:
-        left.append(s[(i+1)%6][1])
+        left.append(s[(i+2)%6][1])
 
-print( ((max(x)*max(y)) - (left[0]*left[1])) * t )
+print( ((max(x)*max(y)) - (left[0]*left[1])) * t)
