@@ -1,5 +1,4 @@
 # # A-F 0-5 // B-D 1-3// C-E 2-4//
-
 import sys
 
 t = int(input())
@@ -14,7 +13,7 @@ for i in range(t):
     dices[i].append([num[1],num[3]])
     
     dices[i].append([num[2],num[4]])
-
+print(dices)
 output = 0
 # 초기 설정값을 뭘로 두느냐 / target을 하나씩 옮겨가면서 검색 시작 
 for dice in dices[0]:       
