@@ -20,8 +20,8 @@ for i in range(1, 2*n, 2):
     # 안에 넣을 때도 q의 형태로 넣음 -> 36번째 줄 때문에
     b.append(deque(sorted(arr[i][1:], reverse=True)))
 
-# print(a)
-# print(b)
+print('a :', a)
+print('b :', b)
 
 a_q = deque(a)
 b_q = deque(b)
