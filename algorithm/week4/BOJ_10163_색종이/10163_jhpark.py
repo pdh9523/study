@@ -10,7 +10,7 @@ n = int(input())
 
 arr = [list(map(int, input().split())) for _ in range(n)]
 
-plane = [[0] * 1001 for _ in range(1001)]
+# plane = [[0] * 1001 for _ in range(1001)]
 visited = [[False] * 1001 for _ in range(1001)]
 answer_ls = []
 
