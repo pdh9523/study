@@ -7,7 +7,7 @@ for i in range(0, N):
     result = 0
     for j in range(i+1, N):
         max1 = max(col_pap[i][0], col_pap[j][0])
-        max2 = max(col_pap[i][1], col_pap[j][0])
+        max2 = max(col_pap[i][1], col_pap[j][1])
         min1 = min(col_pap[i][0] + col_pap[i][2]-1, col_pap[j][0] + col_pap[j][2] -1)
         min2 = min(col_pap[i][1] + col_pap[i][3]-1, col_pap[j][1] + col_pap[j][3] -1)
         if min2-max2+1 > 0 and min1-max1 + 1 > 0:
