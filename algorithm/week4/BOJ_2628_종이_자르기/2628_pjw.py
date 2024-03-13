@@ -14,7 +14,7 @@ for i in range(N):
     else:
         cut_width.append(cut_work[i][1])
 
-cut_height.insert(0, 0)
+cut_height.insert(0, 0) # 걍 만들때 0 넣고 시작해도 될듯
 cut_height.append(width)
 cut_width.insert(0, 0)
 cut_width.append(height)
