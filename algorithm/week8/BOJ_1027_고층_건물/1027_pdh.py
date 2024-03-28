@@ -20,7 +20,7 @@ for i in range(N):
         height = buildings[j] - buildings[i]
         ratio = height/width
         # ratio가 tmp보다 크면 cnt +=1 하고 갱신
-        if ratio > tmp :
+        if ratio > tmp:
             cnt += 1
             tmp = ratio
 
