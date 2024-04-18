@@ -7,11 +7,9 @@ N,M = map(int,input().split())
 
 glacier = []
 
-target = set()
 
 for _ in range(N):
     ice = list(map(int,input().split()))
-    target.update(ice)
     glacier.append(ice)
 
 
@@ -19,6 +17,7 @@ ans = 0
 year = -1                                  # while 시작하면서 0 년으로 시작해야 하니까 -1년부터 시작
 while True : 
     year += 1
+    
     cnt = 0                                             # 빙산 개수
     visit = [[0]*M for _ in range(N)]                   # 전체에 대한 bfs로 빙산을 나눔
     for i in range(N):
