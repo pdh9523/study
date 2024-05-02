@@ -1,6 +1,6 @@
 N = int(input())
 
-# 무서운 이야기 : (1,2)를 딕셔너리로 변환하면 {1:2}가 된다.w
+# 무서운 이야기 : zip을 딕셔너리로 변환하면 {1:2}가 된다.
 correct = dict(zip(input().split(), range(N)))
 # 이거랑 같음
 # correct = dict()

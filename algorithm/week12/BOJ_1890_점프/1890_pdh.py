@@ -15,4 +15,5 @@ for i in range(N):
             DP[i+tmp][j] += DP[i][j]
         if 0 <= j + tmp < N :           # j+tmp가 인덱스 이내인 경우 그 위치에 값 합산
             DP[i][j+tmp] += DP[i][j]
+
 print(DP[-1][-1])                       # 결과 출력
